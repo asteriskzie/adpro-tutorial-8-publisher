@@ -13,3 +13,7 @@ The same as the subscriber program. That is, amqp is the protocol, guest:guest i
 ![Cargo Run Publisher](img/cargo-run-publisher.png)
 The subscriber got the message
 ![Cargo Run Subscriber](img/cargo-run-subscriber.png)
+
+## Monitoring chart based on publisher 
+![Monitoring RabbitMQ](img/monitoring-rabbitmq.png)
+The spike in the chart corresponds to the message sent by the publisher. Each `cargo run` sends a message to the message broker. When I did `cargo run` twice, the spike in the chart is twice as high.
