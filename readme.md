@@ -7,3 +7,9 @@ The same as the subscriber program. That is, amqp is the protocol, guest:guest i
 
 ## Screenshot of running RabbitMQ 
 ![Running RabbitMQ](img/running-rabbitmq.png)
+
+## Screenshot of cargo run publisher 
+`cargo run` in the publisher directory, sending 5 messages to the message broker
+![Cargo Run Publisher](img/cargo-run-publisher.png)
+The subscriber got the message
+![Cargo Run Subscriber](img/cargo-run-subscriber.png)
